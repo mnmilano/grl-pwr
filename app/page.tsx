@@ -62,7 +62,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Girl Power home">
-          <Image src="/girl-power-logo.png" width={70} height={70} alt="Girl Power logo" priority />
+          <Image src="/girl-power-logo.png" width={70} height={70} alt="Girl Power logo" priority unoptimized />
           <span>GIRL<br />POWER</span>
         </a>
         <nav aria-label="Main navigation">
@@ -92,7 +92,7 @@ export default function Home() {
           <div className="burst burst-one">★</div>
           <div className="burst burst-two">✦</div>
           <div className="hero-logo-wrap">
-            <Image src="/girl-power-logo.png" width={520} height={520} alt="Girl Power: bracelets, bookmarks, and paintings" priority />
+            <Image src="/girl-power-logo.png" width={520} height={520} alt="Girl Power: bracelets, bookmarks, and paintings" priority unoptimized />
           </div>
           <div className="doodle-note note-one"><span>100%</span> YOU</div>
           <div className="doodle-note note-two">MADE<br />BY HAND</div>
@@ -196,7 +196,7 @@ export default function Home() {
       </section>
 
       <section className="story" id="story">
-        <div className="story-logo"><Image src="/girl-power-logo.png" width={300} height={300} alt="Girl Power logo" /></div>
+        <div className="story-logo"><Image src="/girl-power-logo.png" width={300} height={300} alt="Girl Power logo" unoptimized /></div>
         <div><p className="eyebrow"><span>♥</span> Small business. Big energy.</p><h2>MADE TO<br /><em>MAKE YOU SMILE.</em></h2><p>Girl Power began with a love for color, creativity, and making gifts that feel truly personal. Every piece is imagined with you and made by hand—because the best things are the ones nobody else has.</p><a href="#customize" className="button light">Let’s make something <span>→</span></a></div>
       </section>
 
