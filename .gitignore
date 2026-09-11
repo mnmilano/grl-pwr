@@ -21,6 +21,11 @@
 # misc
 .DS_Store
 *.pem
+*.key
+*.crt
+*.log
+.idea/
+.vscode/
 
 # debug
 npm-debug.log*
@@ -38,5 +43,6 @@ yarn-error.log*
 next-env.d.ts
 /dist/
 /.wrangler/
+/.sites-runtime/
 /outputs/
 /work/
